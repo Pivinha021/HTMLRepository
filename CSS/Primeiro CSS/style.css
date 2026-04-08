@@ -1,0 +1,38 @@
+h1  {
+    color: blue;
+    background-color: #00eeff;
+}
+
+.meme   {
+    background-color: #305a00;
+}
+
+#apuca  {
+    background-color: #ff5f08;
+    color: #703607;
+}
+
+#nome   {
+    color: #dc0000;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+p   {
+    color: #77e007ff;
+    background-color: aquamarine;
+}
+
+.fora   {
+    background-color: #ffffff;
+    display: flex;
+}
+
+.dentro {
+    background-color: blueviolet;
+    height: 50px;
+    width: 30%;
+}
+.TextoCentralizado {
+    text-align: center;
+}
