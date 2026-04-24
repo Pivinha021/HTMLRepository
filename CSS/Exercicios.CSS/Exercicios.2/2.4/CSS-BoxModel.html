@@ -3,25 +3,71 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Cascade</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>CSS Box Model</title>
+  <style>
+    /* Escreva seu código CSS Aqui */
+    .boxes{
+      height: 200px;
+      width: 200px;
+      border: 10px solid black;
+      text-align:center;
+      padding: 10px;
+    }
+    #box1{
+      background-color: cadetblue;
+      padding: 20px;
+    }
+    #box2{
+      border-top: 20px solid black; 
+      border-bottom: 20px solid black;
+      border-left: 10px solid black; 
+      border-right: 10px solid black;
+      background-color: gold;
+      margin-inline: 260px;
+    }
+    #box3{
+      background-color: indianred;
+      margin-inline: 20px;
+    }
+    p{
+      margin: 0px;
+    }   
+  </style>
 </head>
 
 <body>
-  <div id="outer-box" class="box">
-    <div class="box">
-      <p>Yellow Text</p>
-      <div class="box inner-box">
-        <p class="white-text">White Text</p>
+
+    <!-- - Crie 3 Caixas (`Boxes`) usando o elemento **`div`**. -->
+    <!-- - Defina os seus tamanhos para **200px** de altura (`height`) por **200px** de largura (`width`). -->
+    <div>
+      <div id="box1", class="boxes">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+          id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+          dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
+        </p>
+
+      </div>
+      <div id="box2", class="boxes">
+        
+      </div>
+      <div id="box3", class="boxes">
+        
       </div>
     </div>
-    <div class="box">
-      <p>Yellow Text</p>
-      <div class="box inner-box">
-        <p class="white-text">White Text</p>
-      </div>
-    </div>
-  </div>
+<!-- - Defina **cores de fundo (`background-color`) diferentes** para cada uma das caixas (usei `cadetblue`, `gold` e `indianred`). -->
+<!-- - Adicione um elemento **parágrafo (`<p>`)** dentro da primeira `div` e insira o seguinte texto: -->
+    
+    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+    id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+    dolor metus, laoreet ac convallis sit amet, efficitur sed dolor. -->
+    
+<!-- - Defina a primeira `div` para ter **20px de `padding` em toda a volta** com uma **`border` preta de 10px**. -->
+<!-- - Ajuste o estilo do elemento **`<p>`** para **remover todas as `margins`**. -->
+    <!-- - *Dica: Use o inspector CSS no Chrome para ajudar.* -->
+<!-- - Defina a segunda `div` para ter uma **`border` de 20px no topo (`top`) e na base (`bottom`)** e **10px de `border` na esquerda (`left`) e na direita (`right`)**. (Veja a imagem objetivo) -->
+<!-- - Defina a terceira `div` para ter uma **`border` de 10px**. -->
+<!-- - Defina as **`margins`** para as `divs` de modo que o canto de cada caixa toque a outra. (Veja a imagem objetivo) -->
 </body>
 
 </html>
