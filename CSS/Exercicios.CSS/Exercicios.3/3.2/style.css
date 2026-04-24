@@ -1,22 +1,20 @@
-/* Não Altere o CSS Inicial, Apenas Adicione o Seu CSS. */
+h1, h2{
+    color: blueviolet;
+}
 
-.box {
-    background-color: blue;
-    padding: 10px;
-  }
+div > p{
+    color: firebrick;
+}
 
-  #outer-box{
-    border: 10px solid blueviolet
-  }
-  
-  p {
-    color: yellow;
-    margin: 0;
-    padding: 0;
-  }
+ul > li{
+    color: blue;
+}
 
-  .white-text{
-    color: white;
-    background-color: red;
-    padding: 10px;
-  }
+li.done{
+    color: seagreen;
+}
+
+ul > p.done{
+    font-size: 0.5rem;
+}
+
